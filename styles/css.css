@@ -29,6 +29,13 @@
     
 
 }
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+main>section{
+    margin-top: 130px;
+}
 /* header styles */
 
 /* navbar styles */
@@ -68,7 +75,28 @@
 .banner-img{
     width: 100%;
 }
-
+/* teams */
+.teams{
+    align-items: center;
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    gap: 24px;
+}
+.our-features{
+    margin-left: 130px;
+    max-width: 530px;
+}
+.feature-title{
+    font-size: 2.8rem;
+}
+#quick-list{
+    color: rgba(114, 114, 114, 1);
+}
+#features{
+    color: #FF900E;
+}
 /* reponsive media */
 @media screen and (max-width:576px) {
     .navbar, .nav-links{
